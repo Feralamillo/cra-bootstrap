@@ -1,9 +1,9 @@
-import './css/bootstrap.scss';
+import "./css/bootstrap.scss";
 
-import * as React from 'react';
-import { render } from 'react-dom';
+import * as React from "react";
+import { render } from "react-dom";
 
-import App from './App';
+import App from "./app";
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 render(<App />, rootElement);

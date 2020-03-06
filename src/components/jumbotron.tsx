@@ -3,7 +3,7 @@ import React from 'react';
 
 export const Jumbotron = () => {
 	return (
-		<section className="jumbotron text-center bg-white">
+		<section className="jumbotron text-center mb-0 bg-white">
 			<div className="container">
 				<h1 className="jumbotron-heading">Album example</h1>
 				<p className="lead text-muted">
@@ -12,10 +12,10 @@ export const Jumbotron = () => {
 					don't simply skip over it entirely.
 				</p>
 				<p>
-					<a href="#" className="btn btn-primary my-2">
+					<a href="#" className="btn btn-primary m-2">
 						Main call to action
 					</a>
-					<a href="#" className="btn btn-secondary my-2">
+					<a href="#" className="btn btn-secondary m-2">
 						Secondary action
 					</a>
 				</p>
